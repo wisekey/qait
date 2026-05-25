@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.qait.ch
+
+# Sitemaps
+Sitemap: https://www.qait.ch/sitemap.xml

@@ -1,7 +1,21 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  async redirects() {
+    return [
+      // Internal canonical normalization
+      { source: '/qait',        destination: '/qait-token', permanent: true },
+      { source: '/token',       destination: '/qait-token', permanent: true },
+      { source: '/whitepaper/', destination: '/whitepaper', permanent: true },
+      { source: '/qait-token/', destination: '/qait-token', permanent: true },
+      { source: '/spacedrop/',  destination: '/spacedrop',  permanent: true },
+      { source: '/about/',      destination: '/about',      permanent: true },
+    ]
+  },
 
-export default nextConfig;
+  images: {
+    formats: ['image/avif', 'image/webp'],
+  },
+}
+
+export default nextConfig

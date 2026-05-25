@@ -25,7 +25,7 @@ export function HeroSection() {
         className="absolute inset-0"
         style={{
           background:
-            'linear-gradient(to right, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.58) 35%, rgba(0,0,0,0.20) 58%, rgba(0,0,0,0.00) 75%)',
+            'linear-gradient(to right, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.40) 35%, rgba(0,0,0,0.10) 58%, rgba(0,0,0,0.00) 75%)',
         }}
         aria-hidden="true"
       />
@@ -35,7 +35,7 @@ export function HeroSection() {
         className="absolute inset-0"
         style={{
           background:
-            'linear-gradient(to top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.00) 40%)',
+            'linear-gradient(to top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.00) 40%)',
         }}
         aria-hidden="true"
       />
